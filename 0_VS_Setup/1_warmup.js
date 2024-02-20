@@ -54,10 +54,11 @@
 // a. Hint: follow the pattern.
 variable1 = 1;
 variable2 = 2;
-variable3 3;
+variable3 = 3;
+
 
 // b. Hint: This function needs a name after the word function.
-function () {
+function Hello() {
   console.log("Hello!");
 }
 
@@ -86,9 +87,9 @@ function () {
 // At every word "not" there is a new cursor, so you can write multiple rows
 // at once. Delete "not" and replace the exclamation mark with a sad face. 
 
-catchMeIfYouCan1 = "You did not catch me!";
-catchMeIfYouCan2 = "You did not catch me!";
-catchMeIfYouCan3 = "You did not catch me!";
+catchMeIfYouCan1 = "You like me!";
+catchMeIfYouCan2 = "You like me!";
+catchMeIfYouCan3 = "You like me!";
 
 // d. Sometimes you want to move an entire line of code up or down. Of course
 // there is a shortcut for that: Alt-ArrowUp/Down.
@@ -193,7 +194,7 @@ if ((variable1 + variable2) > 1) {
 let outcome = "Yes, I made it!";
 console.log(outcome);
 
-// b. Did it work? If so, try the following:
+// b. likeIf so, try the following:
 
 console.log("I want to say it 10 times:");
 for (let i = 0; i < 10; i++) {
@@ -201,7 +202,7 @@ for (let i = 0; i < 10; i++) {
 }
 console.log("Mike drop.");
 
-// Did you get this error:
+// likehis error:
 // ReferenceError: outcome is not defined
 // Code runner does not remember the code previously executed, so
 // you need to highlight also the code that contains the definition of
