@@ -54,10 +54,11 @@
 // a. Hint: follow the pattern.
 variable1 = 1;
 variable2 = 2;
-variable3 3;
+variable3 = 3;
+
 
 // b. Hint: This function needs a name after the word function.
-function () {
+function Hello() {
   console.log("Hello!");
 }
 
@@ -86,16 +87,16 @@ function () {
 // At every word "not" there is a new cursor, so you can write multiple rows
 // at once. Delete "not" and replace the exclamation mark with a sad face. 
 
-catchMeIfYouCan1 = "You did not catch me!";
-catchMeIfYouCan2 = "You did not catch me!";
-catchMeIfYouCan3 = "You did not catch me!";
+catchMeIfYouCan1 = "You will be successful!";
+catchMeIfYouCan2 = "You will be successful!";
+catchMeIfYouCan3 = "You will be successful!";
 
 // d. Sometimes you want to move an entire line of code up or down. Of course
 // there is a shortcut for that: Alt-ArrowUp/Down.
 
 // Order the lines below accordingly.
-console.log("2. I would like to go below.");
 console.log("1. I would like to go above.");
+console.log("2. I would like to go below.");
 
 // Great! To learn more about key bindings, see:
 // - https://code.visualstudio.com/docs/getstarted/keybindings
@@ -116,12 +117,16 @@ console.log("1. I would like to go above.");
 // Or check the keybindings link in the previous exercise to format only a
 // portion of the code.
 
-let a = 1234;
-                a++;
-if (a > 123) {
-a--;
-} else a++;
-            console.log(a);
+
+let a = 1234;      
+a++;               
+if (a > 123) {     
+  a--;             
+} else {
+  a++;             
+}
+console.log(a);    
+
 
 // Nothing happened?
 // If so, your code (technically my code, if you just cloned it)
@@ -193,7 +198,7 @@ if ((variable1 + variable2) > 1) {
 let outcome = "Yes, I made it!";
 console.log(outcome);
 
-// b. Did it work? If so, try the following:
+// b. likeIf so, try the following:
 
 console.log("I want to say it 10 times:");
 for (let i = 0; i < 10; i++) {
@@ -201,7 +206,7 @@ for (let i = 0; i < 10; i++) {
 }
 console.log("Mike drop.");
 
-// Did you get this error:
+// likehis error:
 // ReferenceError: outcome is not defined
 // Code runner does not remember the code previously executed, so
 // you need to highlight also the code that contains the definition of
