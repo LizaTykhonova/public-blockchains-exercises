@@ -2,6 +2,8 @@
 // Let's get familiar with VS Code. //
 //////////////////////////////////////
 
+
+
 // Note: this code is relevant only for the editor Visual Studio Code.
 // https://code.visualstudio.com/
 
@@ -55,10 +57,22 @@
 variable1 = 1;
 variable2 = 2;
 variable3 = 3;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c1913e105818ff239e48d1a7245f7cf54d2885a5
 
 
 // b. Hint: This function needs a name after the word function.
 function Hello() {
+<<<<<<< HEAD
+=======
+=======
+
+// b. Hint: This function needs a name after the word function.
+function sayHello() {
+>>>>>>> 57566877696b28c3772cd680867be2c045d290de
+>>>>>>> c1913e105818ff239e48d1a7245f7cf54d2885a5
   console.log("Hello!");
 }
 
@@ -87,9 +101,21 @@ function Hello() {
 // At every word "not" there is a new cursor, so you can write multiple rows
 // at once. Delete "not" and replace the exclamation mark with a sad face. 
 
+<<<<<<< HEAD
 catchMeIfYouCan1 = "You will be successful!";
 catchMeIfYouCan2 = "You will be successful!";
 catchMeIfYouCan3 = "You will be successful!";
+=======
+<<<<<<< HEAD
+catchMeIfYouCan1 = "You like me!";
+catchMeIfYouCan2 = "You like me!";
+catchMeIfYouCan3 = "You like me!";
+=======
+catchMeIfYouCan1 = "You did catch me :(";
+catchMeIfYouCan2 = "You did catch me :(";
+catchMeIfYouCan3 = "You did catch me :(";
+>>>>>>> 57566877696b28c3772cd680867be2c045d290de
+>>>>>>> c1913e105818ff239e48d1a7245f7cf54d2885a5
 
 // d. Sometimes you want to move an entire line of code up or down. Of course
 // there is a shortcut for that: Alt-ArrowUp/Down.
